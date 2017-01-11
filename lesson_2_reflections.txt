@@ -1,0 +1,4 @@
+* How is the staging area different from the working directory and the repository? What value do you think it offers?
+In the working directory are all used and unused files of the project. As soon as files get added to the staging area, they are considered for a commit. I haven't a clue what value gets offered!
+
+* Let'S look and see
