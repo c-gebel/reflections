@@ -1,4 +1,29 @@
 * How is the staging area different from the working directory and the repository? What value do you think it offers?
 In the working directory are all used and unused files of the project. As soon as files get added to the staging area, they are considered for a commit. I haven't a clue what value gets offered!
 
-* Let'S look and see
+* How can you use the staging area to make sure you have one commit per logical change?
+Everytime I make a logical change in a program I use the git add command and after that the git commit command
+
+* What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- When I want to try something new out but I don't know if it works or if I want the newly branched version dismiss to a later time
+- when I want have a second modified version in addition to the old version
+
+* How do the diagrams help you visualize the branch structure?
+They show you when a branch begins. They branch like a tree
+
+* What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+All the commits of the master- and coins-branch get merged to one branch - the master branch. Two branches result in the diagram in one branch, because it is the symbol for a merging process.
+
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging - pro:
+- Less time is needed
+- Less logic thinking is needed, where some parts of on file gets into another
+
+Automatic merging - contra:
+- Sometimes a merging isn't possible without changing parts of the program code
+
+Manual merging - pro:
+- ???
+
+Manual merging - contra:
+- Much time is needed
